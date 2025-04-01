@@ -4,6 +4,7 @@
 	<Hotel Rating="5">
 		<Name>The Broadmoor</Name>
 		<Phone>(719) 634-7711</Phone>
+		<Phone>(855) 634-7711</Phone>
 		<Address NearestAirport="Colorado Springs Airport (COS)">
 			<Number>1</Number>
 			<Street>Lake Avenue</Street>
@@ -23,7 +24,7 @@
 			<Zip>10019</Zip>
 		</Address>
 	</Hotel>
-	<Hotel Rating="4">
+	<Hotel>
 		<Name>Hotel Del Coronado</Name>
 		<Phone>(619) 522-8100</Phone>
 		<Address NearestAirport="San Diego International Airport (SAN)">
@@ -37,6 +38,7 @@
 	<Hotel Rating="5">
 		<Name>The Four Seasons Resort, Maui</Name>
 		<Phone>(808) 874-8000</Phone>
+		<Phone>(800) 311-0630</Phone>
 		<Address NearestAirport="Kahului Airport (OGG)">
 			<Number>3900</Number>
 			<Street>Wailea Alanui Drive</Street>
@@ -56,7 +58,7 @@
 			<Zip>60611</Zip>
 		</Address>
 	</Hotel>
-	<Hotel Rating="4">
+	<Hotel>
 		<Name>The Langham, Boston</Name>
 		<Phone>(617) 451-1900</Phone>
 		<Address NearestAirport="Logan International Airport (BOS)">
@@ -70,6 +72,8 @@
 	<Hotel Rating="5">
 		<Name>The Venetian Resort</Name>
 		<Phone>(702) 414-1000</Phone>
+		<Phone>(877) 857-1861</Phone>
+		<Phone>(866) 659-9643</Phone>
 		<Address NearestAirport="McCarran International Airport (LAS)">
 			<Number>3355</Number>
 			<Street>Las Vegas Boulevard South</Street>
