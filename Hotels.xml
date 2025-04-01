@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="https://vic-vala.github.io/sp2025_cse445_a4/Hotels.xsd">
+	<Hotel Rating="5">
+		<Name>The Broadmoor</Name>
+		<Phone>(719) 634-7711</Phone>
+		<Address NearestAirport="Colorado Springs Airport (COS)">
+			<Number>1</Number>
+			<Street>Lake Avenue</Street>
+			<City>Colorado Springs</City>
+			<State>CO</State>
+			<Zip>80906</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>The Ritz-Carlton, New York</Name>
+		<Phone>(212) 308-9100</Phone>
+		<Address NearestAirport="LaGuardia Airport (LGA)">
+			<Number>50</Number>
+			<Street>Central Park South</Street>
+			<City>New York</City>
+			<State>NY</State>
+			<Zip>10019</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4">
+		<Name>Hotel Del Coronado</Name>
+		<Phone>(619) 522-8100</Phone>
+		<Address NearestAirport="San Diego International Airport (SAN)">
+			<Number>1500</Number>
+			<Street>Orange Avenue</Street>
+			<City>Coronado</City>
+			<State>CA</State>
+			<Zip>92118</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="5">
+		<Name>The Four Seasons Resort, Maui</Name>
+		<Phone>(808) 874-8000</Phone>
+		<Address NearestAirport="Kahului Airport (OGG)">
+			<Number>3900</Number>
+			<Street>Wailea Alanui Drive</Street>
+			<City>Wailea</City>
+			<State>HI</State>
+			<Zip>96753</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="5">
+		<Name>The Waldorf Astoria Chicago</Name>
+		<Phone>(312) 646-1300</Phone>
+		<Address NearestAirport="O'Hare International Airport (ORD)">
+			<Number>11</Number>
+			<Street>East Walton Street</Street>
+			<City>Chicago</City>
+			<State>IL</State>
+			<Zip>60611</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4">
+		<Name>The Langham, Boston</Name>
+		<Phone>(617) 451-1900</Phone>
+		<Address NearestAirport="Logan International Airport (BOS)">
+			<Number>250</Number>
+			<Street>Franklin Street</Street>
+			<City>Boston</City>
+			<State>MA</State>
+			<Zip>02110</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="5">
+		<Name>The Venetian Resort</Name>
+		<Phone>(702) 414-1000</Phone>
+		<Address NearestAirport="McCarran International Airport (LAS)">
+			<Number>3355</Number>
+			<Street>Las Vegas Boulevard South</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89109</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4">
+		<Name>Shutters on the Beach</Name>
+		<Phone>(310) 458-0030</Phone>
+		<Address NearestAirport="Los Angeles International Airport (LAX)">
+			<Number>1</Number>
+			<Street>Pico Boulevard</Street>
+			<City>Santa Monica</City>
+			<State>CA</State>
+			<Zip>90405</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Quality Inn &amp; Suites, Las Vegas</Name>
+		<Phone>(702) 736-0700</Phone>
+		<Address NearestAirport="McCarran International Airport (LAS)">
+			<Number>4065</Number>
+			<Street>South Las Vegas Boulevard</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89119</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="2">
+		<Name>Motel 6, Los Angeles - LAX</Name>
+		<Phone>(310) 642-7300</Phone>
+		<Address NearestAirport="Los Angeles International Airport (LAX)">
+			<Number>5535</Number>
+			<Street>Bellflower Boulevard</Street>
+			<City>Los Angeles</City>
+			<State>CA</State>
+			<Zip>90040</Zip>
+		</Address>
+	</Hotel>
+</Hotels>
