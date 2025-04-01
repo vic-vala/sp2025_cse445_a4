@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Hotels">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Hotel" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Name"/>
+              <xs:element type="xs:string" name="Phone" maxOccurs="unbounded" minOccurs="0"/>
+              <xs:element name="Address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:integer" name="Number"/>
+                    <xs:element type="xs:string" name="Street"/>
+                    <xs:element type="xs:string" name="City"/>
+                    <xs:element type="xs:string" name="State"/>
+                    <xs:element type="xs:integer" name="Zip"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="NearestAirport" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:float" name="Rating" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
